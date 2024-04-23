@@ -1,11 +1,12 @@
 .top {
     background-color: #1F2937;
+    height: 550px;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .logo {
@@ -32,4 +33,45 @@ ul {
 
 .links {
     display: flex;
+}
+
+.awesome-header-full {
+    display: flex;
+    width: 80%;
+
+}
+
+.awesome-heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.awesome-text {
+    font-size: 18px;
+    color: #E5E7eb;
+}
+
+.top-signup {
+    background-color: #3882f6;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+
+.awesome-text-button {
+    width: 50%;
+    margin-left: 14%;
+    margin-right: 5%
+}
+
+.image {
+    width: 50%;
 }
